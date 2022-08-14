@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">JbCodersLtdChatAppTask</string>
+
+    <!-- Login Screen String   -->
+    <string name="phone_number">Phone Number</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+
+    <!-- Firestore Strings -->
+    <string name="collection_users">Users</string>
+    <string name="collection_chatrooms">Chatrooms</string>
+    <string name="collection_chat_messages">Chat Messages</string>
+    <string name="collection_chatroom_user_list">User List</string>
+    <string name="collection_user_locations">User Locations</string>
+    <string name="or">OR</string>
+    <string name="register">Create New Chat Account</string>
+    <string name="done">Done</string>
+    <string name="name">Your Name</string>
+    <string name="email">Your Mail</string>
+
 </resources>

@@ -1,5 +1,7 @@
 plugins {
     id 'com.android.application'
+    id 'com.google.gms.google-services'
+
 }
 
 android {
@@ -25,6 +27,10 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+
+    dataBinding {
+        enabled = true
+    }
 }
 
 dependencies {
@@ -37,6 +43,8 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
     //Firebase dependencies
+    implementation 'com.google.firebase:firebase-auth:21.0.7'
+    implementation 'com.google.firebase:firebase-firestore:24.2.2'
 
     // Import the Firebase BoM
     implementation platform('com.google.firebase:firebase-bom:30.3.2')
