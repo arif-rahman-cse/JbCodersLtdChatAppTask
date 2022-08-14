@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "173201988662",
+    "project_id": "jbcodersltdchatapptask",
+    "storage_bucket": "jbcodersltdchatapptask.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173201988662:android:0b5918445bce95fccf0c97",
+        "android_client_info": {
+          "package_name": "com.arif.jbcodersltdchatapptask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173201988662-1rc9hef7vb1v8t9bhh13cjhfpqkq8hnq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnNtBtQk9DM98DRW0gIb3VfAZGGSdApRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173201988662-1rc9hef7vb1v8t9bhh13cjhfpqkq8hnq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
