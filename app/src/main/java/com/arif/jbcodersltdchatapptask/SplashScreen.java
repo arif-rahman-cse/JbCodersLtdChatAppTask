@@ -8,7 +8,6 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.arif.jbcodersltdchatapptask.model.UserClient;
 import com.arif.jbcodersltdchatapptask.model.Users;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -44,7 +43,6 @@ public class SplashScreen extends AppCompatActivity {
     }
 
 
-
     private void setupFirebaseAuth() {
         Log.d(TAG, "setupFirebaseAuth: started.");
 
@@ -66,23 +64,23 @@ public class SplashScreen extends AppCompatActivity {
                         Log.d(TAG, "onComplete: successfully set the user client.");
                         //User user = task.getResult().toObject(User.class);
                         Users users = task.getResult().toObject(Users.class);
-                        ((UserClient) (getApplicationContext())).setUser(users);
+                        ((UserClient) (this.getApplicationContext())).setUser(users);
+
                     }
                 });
 
-                Intent intent = new Intent(SplashScreen.this, MainActivity.class);
+                Intent intent = new Intent(SplashScreen.this, ChatRoomActivity.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 startActivity(intent);
-                Toast.makeText(SplashScreen.this, "Login to: " + user.getPhoneNumber(), Toast.LENGTH_SHORT).show();
-                finish();
+                //Toast.makeText(SplashScreen.this, "Login to: " + user.getPhoneNumber(), Toast.LENGTH_SHORT).show();
 
             } else {
                 Log.d(TAG, "onAuthStateChanged:signed_out");
                 Intent intent = new Intent(SplashScreen.this, LoginActivity.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 startActivity(intent);
-                finish();
             }
+            finish();
         };
     }
 

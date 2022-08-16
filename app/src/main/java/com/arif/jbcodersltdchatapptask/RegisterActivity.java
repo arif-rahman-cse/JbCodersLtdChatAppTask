@@ -33,6 +33,7 @@ public class RegisterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
         binding = DataBindingUtil.setContentView(this, R.layout.activity_register);
+        mDb = FirebaseFirestore.getInstance();
 
         binding.btnRegister.setOnClickListener(view -> {
             if (isValid()){
@@ -56,7 +57,7 @@ public class RegisterActivity extends AppCompatActivity {
                         users.setName(name);
                         users.setEmail(email);
                         users.setUsername(email);
-                        users.setPhone_number("");
+                        users.setPhone_number("01721305021");
 
                         //users.setUsername(email.substring(0, email.indexOf("@")));
                         users.setUser_id(FirebaseAuth.getInstance().getUid());

@@ -20,4 +20,15 @@
     <string name="email">Your Email</string>
     <string name="register_a_new_account">Register a new account</string>
 
+    <!-- Intent extras -->
+    <string name="intent_chatroom">intent_chatroom</string>
+    <string name="intent_user_list">intent_user_list</string>
+    <string name="intent_user_locations">intent_user_locations</string>
+    <string name="intent_location">intent_location</string>
+    <string name="new_chat_room">new_chat_room</string>
+
+    <!-- Fragments Names -->
+    <string name="fragment_user_list">User List</string>
+    <string name="fragment_image_list">Image List</string>
+
 </resources>
