@@ -20,4 +20,8 @@ public class Utils {
         }
         imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
     }
+
+    public static boolean doStringsMatch(String s1, String s2){
+        return s1.equals(s2);
+    }
 }

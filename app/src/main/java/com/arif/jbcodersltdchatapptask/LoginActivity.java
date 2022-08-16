@@ -65,7 +65,10 @@ public class LoginActivity extends AppCompatActivity {
                     Log.d(TAG, "signIn: onComplete called");
                     if (task.isSuccessful()) {
                         binding.loginPb.setVisibility(View.GONE);
-                        Toast.makeText(LoginActivity.this, "Success!", Toast.LENGTH_SHORT).show();
+                        Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                        startActivity(intent);
+
                     }
 
                 }).addOnFailureListener(e ->{

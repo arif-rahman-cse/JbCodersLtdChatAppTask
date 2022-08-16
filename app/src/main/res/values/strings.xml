@@ -17,6 +17,7 @@
     <string name="register">Create New Chat Account</string>
     <string name="done">Done</string>
     <string name="name">Your Name</string>
-    <string name="email">Your Mail</string>
+    <string name="email">Your Email</string>
+    <string name="register_a_new_account">Register a new account</string>
 
 </resources>

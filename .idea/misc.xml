@@ -3,12 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Lern_New_Things/flutter/JbCodersLtdChatAppTask/app/src/main/res/drawable/custom_progress.xml" value="0.2085" />
+        <entry key="..\:/Lern_New_Things/flutter/JbCodersLtdChatAppTask/app/src/main/res/drawable/grey_border_top.xml" value="0.2085" />
+        <entry key="..\:/Lern_New_Things/flutter/JbCodersLtdChatAppTask/app/src/main/res/drawable/ic_send.xml" value="0.2085" />
         <entry key="..\:/Lern_New_Things/flutter/JbCodersLtdChatAppTask/app/src/main/res/drawable/red_progress.xml" value="0.243" />
         <entry key="..\:/Lern_New_Things/flutter/JbCodersLtdChatAppTask/app/src/main/res/drawable/splash_scereen_bg.xml" value="0.243" />
         <entry key="..\:/Lern_New_Things/flutter/JbCodersLtdChatAppTask/app/src/main/res/drawable/splash_screen_bg.xml" value="0.243" />
         <entry key="..\:/Lern_New_Things/flutter/JbCodersLtdChatAppTask/app/src/main/res/layout/activity_login.xml" value="0.30641025641025643" />
         <entry key="..\:/Lern_New_Things/flutter/JbCodersLtdChatAppTask/app/src/main/res/layout/activity_login2.xml" value="0.3139240506329114" />
-        <entry key="..\:/Lern_New_Things/flutter/JbCodersLtdChatAppTask/app/src/main/res/layout/activity_main.xml" value="0.3139240506329114" />
+        <entry key="..\:/Lern_New_Things/flutter/JbCodersLtdChatAppTask/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Lern_New_Things/flutter/JbCodersLtdChatAppTask/app/src/main/res/layout/activity_register.xml" value="0.3139240506329114" />
         <entry key="..\:/Lern_New_Things/flutter/JbCodersLtdChatAppTask/app/src/main/res/layout/activity_splash_screen.xml" value="0.30641025641025643" />
       </map>
